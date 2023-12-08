@@ -140,10 +140,8 @@ li {
 header nav img {
   width: 50px;
   position: absolute;
-  left: 220px;
-  margin-top: 10px;
-  
-
+  margin-top: 11px;
+  margin-left: 12px;
 }
 
 .InstagramInicio {
@@ -172,4 +170,63 @@ p {
   font-family: 'Libre Baskerville', serif;
   color: rgba(0, 0, 0, 0.831);
   font-size: 15px;
+}
+
+/*---------------phone-and-tablet-----------------*/
+@media (min-width: 481px) and (max-width: 630px) {
+  
+  /*------------------inicio--------------*/
+
+  .NavPrincipal{
+    width: 440px;
+  }
+  
+  .mhor{
+    width: 440px;
+  }
+  
+}
+
+/*-------------------phone----------------------------*/
+@media screen and (max-width: 480px) {
+
+  /*------------------inicio--------------*/
+  
+  .ImgGirasolInicio {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+  
+  }
+
+  .ImgMeliNiceFont{
+    width: 210px;
+  }
+
+  .NavPrincipal{
+    width: 350px;
+  }
+  
+  .mhor{
+    width: 350px;
+  }
+
+  .SubnavCM{
+    width: 240px;
+  }
+
+  .SubnavMD{
+    width: 240px;
+  }
+
+  .SubnavV{
+    width: 240px;
+  }
+  
+  header nav img{
+    width: 43px;
+    margin-top: 13px;
+    align-items: normal;
+  }
 }
