@@ -206,6 +206,8 @@ p {
 
   .NavPrincipal{
     width: 350px;
+    height: 60px;
+    line-height: 65px;
   }
   
   .mhor{
@@ -232,7 +234,7 @@ p {
   
   header nav img{
     width: 43px;
-    margin-top: 13px;
+    margin-top: 10px;
     align-items: normal;
   }
 }
