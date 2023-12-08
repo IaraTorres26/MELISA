@@ -223,6 +223,12 @@ p {
   .SubnavV{
     width: 240px;
   }
+
+  .SubnavV:hover{
+    color: #faba17;
+    font-size: 16px;
+    transition: 0.3s;
+  }
   
   header nav img{
     width: 43px;
